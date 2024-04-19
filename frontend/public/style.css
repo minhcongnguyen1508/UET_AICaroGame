@@ -1,0 +1,164 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(248, 249, 250);
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.scoreboard {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 12vh;
+    background-color: #ddd;
+    font-size: 1.1rem;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+
+.score1-container {
+    display: flex;
+    align-items: center;
+}
+
+.score2-container {
+    display: flex;
+    align-items: center;
+}
+
+.turn-flag img {
+    width: 40px;
+}
+
+#match-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#match-info #match-id {
+    font-size: 0.9rem;
+}
+
+.players-container {
+    display: flex;
+}
+
+.player1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex: 1;
+}
+
+.player2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex: 1;
+}
+
+#player1-info {
+    padding-right: 50px;
+}
+
+#player2-info {
+    text-align: right;
+    padding-left: 50px;
+}
+
+.player1-avatar img,
+.player2-avatar img {
+    width: 50px;
+    height: 50px;
+}
+
+#player1-id,
+#player2-id {
+    font-weight: 1000;
+}
+
+#gameboard-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#gameboard-container .gameboard {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2vh;
+
+}
+
+#roomid-input-container{
+    width: 100%;
+    text-align: center;
+}
+
+#roomid-input-container input{
+    padding: 0.8%;
+
+}
+
+#roomIdSubmit{
+    padding: 0.8%
+}
+
+.gameboard table {
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+
+.gameboard td {
+    border: 1px solid #aaa;
+    text-align: center;
+    background-color: white;
+}
+
+.gameboard tr {
+    border: 1px solid #aaa;
+}
+
+#status-container {
+    margin-top: 13.5vh;
+}
+
+#status-container h3{
+    width: 100%;
+    text-align: center;
+}
+
+#confirm-button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  #confirm-button:hover {
+    background-color: #3e8e41;
+  }
+  
+  #confirm-button-container {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
